@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+@font-face {
+  font-family: 'Nerd Font';
+  /* @TODO you need to adjust the path to the font: */
+  src: url("../fonts/Nerd_Symbols.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.projectCard {
+  font-family: 'Nerd Font', "Space Grotesk";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering (from devicons, et al) */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

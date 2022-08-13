@@ -1,0 +1,78 @@
+:root {
+	--bg: #3b4252;
+	--fg: #e5e9f0;
+
+	--fg-dimmed: #d8dee9;
+	--shadow: #d8dee96A;
+	--link: #bf616a;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+	font-family: "Space Grotesk", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: var(--link);
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.container {
+	max-width: 70em;
+	width: 70em auto;
+	border: solid 2px;
+	margin: 1px auto;
+	box-shadow: 0em 0.1em 0.35em var(--shadow);
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	padding-left: 10px;
+	padding-top: 10px;
+	height: auto;
+}
+
+h1 {
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.container.title {
+	text-align: center;
+	font-family: "Space Mono", monospace;
+}
+
+ul li, li, ul {
+	display: inline;
+	padding: 0;
+	list-style: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: var(--fg);
+	background-color: var(--link);
+	box-shadow: 0em 0.1em 0.35em var(--shadow);
+}
+
+.prj {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.projectCard {
+	padding-left: 7px;
+	padding-right: 17px;
+	color: var(--fg-dimmed);
+	border-left: 2px solid;
+	border-color: var(--shadow);
+	margin-bottom: 7px;
+	float: left;
+}
+
